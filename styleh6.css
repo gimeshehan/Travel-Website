@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+
+.navbar{
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    margin-left: 0;
+    margin-right: 0;
+    max-width: inherit;
+    max-height:inherit;
+    background-color: rgba(249, 249, 249, 0.1);
+}
+
+.navbar a.active{
+    text-decoration: underline;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+li a:hover{
+    background: white;
+    transition: 1s;
+}
+.navbar a:hover{
+    color: black;
+}
+
+body{
+  height: 100vh;
+  background: url('img/bg1.0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.container{
+    display: flex;
+    margin: 10 10 10 10;
+    padding: 45px 0;
+}
+.image{
+    height: 90vh;
+    margin-right: 5;
+    padding: 5px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 100;
+    margin-top: 0;
+    max-width: 750;
+    background-color: rgba(249, 249, 249, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image .top{
+    background-image: url(herit/h6.0.jpeg);
+    height: 50%;
+    background-size: cover;
+    margin: 10 10 10 10;
+    border-radius: 8px;
+}
+
+.image .bottom{
+    display: flex;
+    height: 50%;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.image .bottom .left{
+    background-image: url(herit/h6.1.jpeg);
+    width: 50%;
+    background-size: cover;
+    margin: 10 10 10 10;
+    border-radius: 8px;
+}
+.image .bottom .right{
+    background-image: url(herit/h6.3.jpeg);
+    width: 50%;
+    background-size: cover;
+    margin: 10 10 10 10;
+    border-radius: 8px;
+}
+
+
+.dis{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto;
+    width: 55%;
+    margin-left: 100;
+    margin-right: 100;
+    max-width: 750;
+    max-height:inherit;
+    background-color: rgba(249, 249, 249, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.dis .topic{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto;
+   
+}
+
+.indented-paragraph {
+      text-indent: 50px;
+}
+
